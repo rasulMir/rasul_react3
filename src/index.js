@@ -1,17 +1,25 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Task1 from './task1/Task1';
+import Task2 from './task2/Task2';
+import Task3 from './task3/Task3';
+import Task4 from './task4/Task4';
+import Task5 from './task5/Task5';
+import Task6 from './task6/Task6';
 
-ReactDOM.render(
+const container = document.getElementById('root');
+const root = createRoot(container);
+
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+		<div className='wrapper'>
+    	{/* <Task1/> */}
+    	{/* <Task2/> */}
+			{/* <Task3/> */}
+			{/* <Task4/> */}
+			{/* <Task5/> */}
+			{/* <Task6/> */}
+		</div>
+  </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
