@@ -1,0 +1,51 @@
+.wrap {
+	background-color: #000;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	font-size: 16px;
+}
+
+.column {
+	flex: 0 0 45%;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.column > img {
+	text-align: center;
+	width: 100px;
+	height: 100px;
+}
+
+.price {
+	text-transform: uppercase;
+}
+.name {
+	text-transform: uppercase;
+}
+
+.txt {
+	text-transform: capitalize;
+}
+
+ul {
+	padding: 0;
+	margin: 0 0 10px 0;
+	list-style-type: none;
+}
+
+li {
+	margin: 0 0 5px 0;
+	padding: 5px;
+}
+
+button {
+	background-color: rgb(30, 252, 59);
+	border: none;
+	outline: none;
+	padding: 5px;
+	margin: 0 0 0 5px;
+	cursor: pointer;
+}

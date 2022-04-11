@@ -1,0 +1,56 @@
+.wrap {
+	padding: 20px;
+}
+
+.title {
+	font-size: 30px;
+	text-align: center;
+	margin: 0 0 10px 0;
+}
+
+.top {
+	display: flex;
+	justify-content: stretch;
+	align-items: stretch;
+	margin: 0 0 15px 0;
+}
+
+.bttm {
+}
+
+.input {
+	flex: 1 0;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 3px;
+
+	padding: 10px;
+	margin: 0 10px 0 0;
+}
+
+.input:focus {
+	border-color: aqua;
+}
+
+.btn {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	padding: .5em 1em;
+	background-color: blue;
+	border: none;
+	border-radius: .15em;
+	cursor: pointer;
+}
+
+.ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.li {
+	padding: .5em;
+	border: 1px solid grey;
+	font-size: 16px;
+}
